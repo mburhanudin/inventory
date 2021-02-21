@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../assets/css/side-menu.css';
-import authService from '../../Service/auth.service';
+import authService from '../../services/auth.service';
 
 const handleLogout = (event) => {
     authService.logout();
