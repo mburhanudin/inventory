@@ -1,17 +1,12 @@
-import axios from "axios";
-
-// const config = {
-//   headers: { "Authorization": `Bearer ${token}` }
-// };
+import request from "../helpers/request";
 
 const login = async (email, password) => {
-  const response = await axios
-    .post('https://inventorymanagementsystem-api.herokuapp.com/api/v1/users/login', {
-      email,
-      password
-    });
-    localStorage.setItem("user", JSON.stringify(response.data));
-    localStorage.setItem("token", response.data);
+  const response = await request.post("/users/login", {
+    email,
+    password,
+  });
+  localStorage.setItem("user", JSON.stringify(response.data));
+  localStorage.setItem("token", response.data);
   if (response.data.accessToken) {
     localStorage.setItem("user", JSON.stringify(response.data));
     localStorage.setItem("token", response.data);
