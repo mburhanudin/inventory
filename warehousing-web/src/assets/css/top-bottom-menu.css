@@ -1,0 +1,47 @@
+/* HEADER */
+.navbar {
+    padding: 5px 20px 10px 10px;
+    border-radius: 0;
+    margin-bottom: 7px;
+    box-shadow: 0px 10px 0px #073590;
+}
+.navbar-item {
+    margin: 1px 0px;
+}
+.navbar-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.navbar-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 20px;
+}
+
+
+/* FOOTER */
+.copyright {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: darkgray;
+}
+
+
+
+@media only screen and (max-width: 1080px) {
+    .navbar-name {font-size: 27.5px;}
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar-name {font-size: 25px;}
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-name {font-size: 22.5px;}
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-name {font-size: 22.5px;}
+}

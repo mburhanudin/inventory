@@ -1,0 +1,140 @@
+/* 
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #041F54;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+} */
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+.a{
+  color: black;
+}
+ 
+.sidebar a.active {
+  background-color: #073590;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+} */
+/* 
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: sans-serif;
+}
+
+navbar{
+  position: absolute;
+  right:0;
+  left:0;
+  height:5em;
+  display: flex;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+  i{
+    margin: auto 0 auto 10px;
+    padding: 15px;
+    transition: transform 1s;
+  }
+  i:hover{
+    background-color:#72a03d;
+    border-radius: 26px;
+    transform: rotate(360deg);
+  }
+  h3{
+    margin:auto;
+  }
+}
+
+aside {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  bottom: 0;
+  background-color: #041F54;
+  transition: width 0.5s ease-in-out;
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      display: flex;
+      align-items: center;
+      color: #ffffff;
+      padding: 12px 0 12px 22px;
+      font-weight: 400;
+      transition: transform 1s;
+      cursor: pointer;
+      i {
+        margin-right: 1em;
+      }
+    }
+    li:hover {
+      transform: translateX(5px);
+      color: #ffffff !important;
+      border-left: 5px solid #ffffff;
+    }
+  }
+}
+.drawerMin {
+  width: 70px;
+}
+.drawerOpen {
+  width: 240px;
+}
+
+main {
+  position: absolute;
+  top: 80px;
+  padding: 1em;
+  margin-left: 0;
+  bottom: 0;
+  overflow-y: auto;
+  transition: margin-left 0.5s ease-in-out;
+}
+.mainMin {
+  margin-left: 70px;
+}
+.mainOpen {
+  margin-left: 240px;
+}
+

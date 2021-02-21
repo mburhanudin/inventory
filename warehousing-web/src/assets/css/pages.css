@@ -1,0 +1,111 @@
+/* Dashboard */
+
+/* Products */
+.header-tagline {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 75px;
+}
+.card {
+    width: 700px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    /* margin: auto; */
+}
+
+
+
+
+
+/* Master Data */
+.container-category {
+    margin-left: 200px;
+}
+.header-tagline {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 75px;
+}
+.category-list {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-top: 50px;
+    text-align: left;
+}
+
+
+
+
+
+
+/* Roles */
+.header-tagline {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 75px;
+}
+.table-container {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 50px;
+    /* margin-left: 75px; */
+    margin-bottom: 100px;
+}
+tbody {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 14px;
+    height: 50px;
+}
+td {
+    width: 30px;
+}
+.field {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 15px;
+    justify-content: right;
+    padding-left: 60px;
+    margin-bottom: -50px;
+}
+.button-account {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    color: white;
+    background-color: #073590;
+    border-color: black;
+    border-radius: 7px;
+    width: 90px;
+    height: 40px;
+    margin-top: 100px;
+    /* margin-left: 60px; */
+}
+.button-search {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    color: white;
+    background-color: #073590;
+    border-color: black;
+    border-radius: 7px;
+    width: 90px;
+    height: 40px;
+}
+.add-user {
+    width: 40px;
+    height: 40px;
+    margin-left: 32.5px;
+}
