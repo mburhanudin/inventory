@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Sidebar from '../components/Menu/Sidebar';
+import Sidebar from '../../components/Menu/Sidebar';
 import DataGrid, { Column, Pager, Paging, SearchPanel, Sorting} from 'devextreme-react/data-grid';
 import 'devextreme/dist/css/dx.common.css';
 import 'devextreme/dist/css/dx.light.css';

@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../components/Menu/Header';
-import Sidebar from '../components/Menu/Sidebar';
+import Header from '../../components/Menu/Header';
+import Sidebar from '../../components/Menu/Sidebar';
 import { useHistory } from 'react-router-dom';
 
 function Add() {

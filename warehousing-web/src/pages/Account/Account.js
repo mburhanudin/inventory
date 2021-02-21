@@ -1,6 +1,6 @@
 import React, {useRef, useState, useEffect} from 'react';
-import Header from '../components/Menu/Header';
-import Sidebar from '../components/Menu/Sidebar';
+import Header from '../../components/Menu/Header';
+import Sidebar from '../../components/Menu/Sidebar';
 import DataGrid, { Column, Pager, Paging, SearchPanel, Sorting} from 'devextreme-react/data-grid';
 import 'devextreme/dist/css/dx.common.css';
 import 'devextreme/dist/css/dx.light.css';
@@ -56,8 +56,8 @@ function Account() {
 
 
 // import React, {useRef, useState, useEffect} from 'react';
-// import Header from '../components/Menu/Header';
-// import Sidebar from '../components/Menu/Sidebar';
+// import Header from '../../components/Menu/Header';
+// import Sidebar from '../../components/Menu/Sidebar';
 // import DataGrid, { Column, Pager, Paging, SearchPanel, Sorting} from 'devextreme-react/data-grid';
 // import 'devextreme/dist/css/dx.common.css';
 // import 'devextreme/dist/css/dx.light.css';

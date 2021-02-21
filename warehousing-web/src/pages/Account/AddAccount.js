@@ -1,7 +1,7 @@
 // import React from 'react';
-// import Header from '../components/Menu/Header';
+// import Header from '../../components/Menu/Header';
 // import Footer from '../components/Menu/Footer';
-// import Sidebar from '../components/Menu/Sidebar';
+// import Sidebar from '../../components/Menu/Sidebar';
 // import '../assets/css/side-menu.css';
 
 // function AddProduct() {
@@ -100,8 +100,8 @@
 
 
 // import React from 'react';
-// import Header from '../components/Menu/Header';
-// import Sidebar from '../components/Menu/Sidebar';
+// import Header from '../../components/Menu/Header';
+// import Sidebar from '../../components/Menu/Sidebar';
 // import { useHistory } from 'react-router-dom';
 
 // function Add() {
